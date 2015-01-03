@@ -1,0 +1,262 @@
+/*
+Theme Name: Worthy - Free Powerful Theme by HtmlCoder
+Author:HtmlCoder
+Author URI:http://www.htmlcoder.me
+Version:1.0.0
+Created:November 2014
+License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
+File Description: Place here your custom CSS styles
+*/
+.tedxlogo .tedx {color: #e62b1e; font-weight: bolder; letter-spacing:-.04em;}
+.tedxlogo .x {}
+.tedxlogo .suzhou {color: white; font-weight: normal;}
+
+::-moz-selection { /* Code for Firefox */
+    background: #fad1cf;
+}
+
+::selection {
+    background: #fad1cf;
+}
+
+#about h3 {
+    font-weight: 700;
+}
+#about p {
+    text-align: left;
+	text-indent: 2em;
+}
+
+#about hr{
+    margin-bottom: 60px;
+}
+
+#activity-types:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#activity-types div{
+	z-index: 3;
+}
+
+#activity-types {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	background-attachment: fixed;
+}
+
+#activity-types img.typeshow{
+    height: 400px;
+	width: auto;
+}
+
+#history .poster img{
+    width: 300px;
+	height: auto;
+	margin: 20px auto 0 auto;
+}
+
+#history .fa{
+    width: 1.2em;
+	text-align: center;
+}
+
+#history .desc{
+    margin-top: 20px;
+}
+
+.img-center{
+    margin: 0 auto;
+}
+
+.speaker .speaker-img {
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+}
+.speaker .row{
+    margin-top: 9px;
+}
+@media(min-width:768px) {
+    #history .poster{
+        text-align: right;
+    }
+	#history .poster img{
+	    float: right;
+	}
+    #history .describe{
+        text-align: left;
+    }
+}
+
+hr.colored {
+    border-color: #e62b1e;
+}
+
+hr {
+    height: 2px;
+    margin: 15px auto;
+    max-width: 100px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+@media(min-width:768px) {
+    hr {
+        margin: 20px auto;
+        max-width: 200px;
+    }
+}
+
+#footer .list-icons{
+    width: 350px;
+	margin: 0 auto;
+}
+
+#footer .list-icons span{
+    width: 75px;
+	display: inline-block;
+	margin-left: 0.3em;
+}
+
+#footer .list-icons .fa{
+    width: 1.2em;
+	text-align: center;
+}
+
+#wechatQR{
+    margin:0 auto;
+}
+
+#team-section .team-member img{
+    width: 150px;
+}
+
+#team-section .team-member p{
+    padding: 0 30px;
+}
+
+.portfolio-carousel {
+    padding: 0;
+    color: #fff;
+    background-color: #222;
+}
+
+.portfolio-carousel .item {
+    padding: 50px 55px;
+    text-align: center;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.portfolio-carousel .item .portfolio-image {
+    margin-top: 50px;
+	border-radius: 60px;
+}
+
+.portfolio-carousel .item .project-details {
+    padding: 0;
+}
+
+.portfolio-carousel .item .project-details img.client-logo {
+    margin: 0 auto 25px;
+}
+
+.portfolio-carousel .item .project-details .project-name {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.portfolio-carousel .item .project-details .project-description {
+    display: block;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.portfolio-carousel .owl-controls {
+    margin-top: 0;
+}
+
+.portfolio-carousel .owl-controls .owl-prev,
+.portfolio-carousel .owl-controls .owl-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 75px;
+    margin: auto 0!important;
+    border-radius: 0!important;
+    text-align: center;
+    font-size: 30px!important;
+    line-height: 70px;
+    color: #fff!important;
+    background-color: #e62b1e!important;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+.portfolio-carousel .owl-controls .owl-prev:hover,
+.portfolio-carousel .owl-controls .owl-next:hover {
+    opacity: 1;
+}
+
+.portfolio-carousel .owl-controls .owl-prev {
+    left: 0;
+}
+
+.portfolio-carousel .owl-controls .owl-next {
+    right: 0;
+}
+
+@media(min-width:992px) {
+    .portfolio-carousel .item {
+        padding: 80px 55px;
+        min-height: 100%;
+        text-align: left;
+    }
+
+    .portfolio-carousel .item .portfolio-image {
+        margin-top: 0;
+		border-radius: 60px;
+    }
+
+    .portfolio-carousel .item .project-details {
+        padding: 15% 0 0;
+    }
+
+    .portfolio-carousel .item .project-details img.client-logo {
+        margin: 0 auto 25px 0;
+    }
+
+    .portfolio-carousel .item .project-details .project-name {
+        display: block;
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .portfolio-carousel .item .project-details .project-description {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .portfolio-carousel .item hr.colored {
+        margin: 20px auto 20px 0;
+    }
+}
